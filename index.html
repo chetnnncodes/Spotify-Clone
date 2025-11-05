@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assects/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main">
+       <div class="sidebar">
+        <div class="nav">
+            <div class="nav-option" style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+        <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option">
+                <img src="./assects/library_icon.png"
+                <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+            </div>
+            <div class="lib-box">
+                <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new epesodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="main-content">
+        <div class="sticky-nav">
+
+            <div class="sticky-nav-icons">
+                <img src="./assects/backward_icon.png">
+                <img src="./assects/forward_icon.png" class="hide">
+            </div>
+
+            <div class="sticky-nav-options">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px ;" ></i> Install App</button>
+                <i class="fa-regular fa-user nav-item"></i>
+            </div>
+            
+        </div>
+        
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assects/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50- Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+            </div>
+
+            <h2>Jump back in</h2>
+            <div class="cards-container">
+
+                <div class="card">
+                    <img src="assects/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top- Hindi</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assects/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top- Lofi</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assects/bad.png" class="card-img" style="height: 150px; width: 150px;">
+                    <p class="card-title">Bad Newz- Song</p>
+                    <p class="card-info">Bad Newz movie all song </p>
+                </div>
+
+                <div class="card">
+                    <img src="assects/shahrukh.png" class="card-img">
+                    <p class="card-title">Shah Rukh Khan- Top hits </p>
+                    <p class="card-info">The biggest hit songs from Shahrukh khan...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assects/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top- Trending</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+        
+            </div>
+
+
+            <h2>Your favourite artists</h2>
+            <div class="cards-container">
+
+                <div class="card">
+                    <img src="assects/jubin1.png" class="card-img">
+                    <p class="card-title">Jubin Nautiyal</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                
+                <div class="card">
+                    <img src="assects/jaya2.png" class="card-img"  style="height: 180px;">
+                    <p class="card-title">Jaya Kishori</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                
+                <div class="card">
+                    <img src="assects/arjit1.png" class="card-img">
+                    <p class="card-title">Arijit Singh</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                
+                <div class="card">
+                    <img src="assects/darshan.png" class="card-img">
+                    <p class="card-title">Darshan Raval</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                
+                <div class="card">
+                    <img src="assects/iqlipse.png" class="card-img">
+                    <p class="card-title">Iqlipse Nova</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+        
+            </div>
+            
+
+
+
+            <h2>Featured Charts </h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assects/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs- Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assects/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs- India</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assects/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50- Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+       </div>
+
+       <div class="music-player">
+        <div class="music-player">
+
+        
+        
+            <div id="music-player-inside">
+            <div style="display: flex; margin-left: 30px;">
+            <img src="assects/laila.png" alt="image" width="56px" height="60px"
+            style="border-radius: 56px; margin-top: 9px; margin-left: 30px;">
+            <b style="color: white; margin-left: 10px; margin-top: 20px;">Atif Aslam
+            <br>O Meri Laila</b>
+           
+            <i class="fa-regular fa-heart" style="margin-top: 25px; margin-left: 10px; color: white;"></i>
+            <i class="fa-regular fa-address-card"
+            style="margin-top: 25px; margin-left: 10px; color: white; margin-left: 18px;"></i>
+            </div>
+           
+            <!-- music player 2 stage -->
+           
+           
+            <div>
+            <div style="margin-left: 250px;">
+            <img src="assects/player_icon1.png" alt="image" width="20px" height="20px" style="margin-right: 36px;"
+            id="playericon">
+           
+            <img src="assects/player_icon2.png" alt="image" width="20px" height="20px" style="margin-right: 36px;"
+            id="playericon">
+           
+            <img src="assects/player_icon3.png" alt="image" width="33px" height="33px"
+            style="margin-right:36px; margin-top: 20px;" id="playericon">
+           
+            <img src="assects/player_icon4.png" alt="image" width="20px" height="20px" style="margin-right: 30px;"
+            id="playericon">
+           
+            <img src="assects/player_icon5.png" alt="image" width="20px" height="20px" style="margin: right 156px;"
+            id="playericon">
+           
+            <div style="display: flex;">
+           
+            <div>
+            <span style="color: white;">1:55</span>
+            </div>
+           
+            <span style="display: flex;"><input type="range"
+            style="margin-top: 0px; width: 200px; margin-right: 10px;"></span>
+           
+            <div>
+            <span style="color: white;">2:33</span>
+            </div>
+           
+            </div>
+        </div>
+            </div>
+
+           <!-- music player 3 stage -->
+           
+            <div style="color: white; margin-left: 180px; margin-top: 40px; ">
+            <div style="color: white; display: flex; align-items: center; margin-bottom: 0;">
+            <i class="fa-solid fa-square-caret-right" style="margin-right: 20px;"></i>
+            <i class="fa-solid fa-headset" style="margin-right: 20px;"></i>
+            <i class="fa-solid fa-list" style="margin-right: 20px;"></i>
+            <i class="fa-solid fa-mobile-retro" style="margin-right: 16px;"></i>
+            <i class="fa-solid fa-volume-high" style="margin-right: 10px;"></i>
+            <input type="range" width="10px">
+            </div>
+            </div>
+           
+            </div>
+       </div>
+
+</body>
+</html>
